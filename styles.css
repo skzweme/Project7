@@ -73,16 +73,12 @@ body {
 }
 #banner-subtitle2 {
   font-family: 'Open Sans', sans-serif;
-  color: #ece938;
+  color: #ffffff;
   font-size: 10px;
 }
 a:link, a:visited {
-  color: #e4e14a;
+  color: #ffffff;
   text-decoration: none;
-}
-
-a:hover, a:active {
-  background-color: #d2cf3b;
 }
 
 /* Styles for table */
