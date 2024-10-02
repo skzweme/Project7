@@ -2,13 +2,13 @@
 @import url(//db.onlinewebfonts.com/c/50cd2aad9c8f35800bb6beac3ad42f16?family=Azonix);
 @font-face {font-family: "Azonix"; src: url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.eot"); src: url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.woff") format("woff"), url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/50cd2aad9c8f35800bb6beac3ad42f16.svg#Azonix") format("svg"); }
 @font-face {
-  font-family: "Plan G";
-  src: url("https://db.onlinewebfonts.com/t/c64849bf51341c4e7083989b3907e29e.eot");
-  src: url("https://db.onlinewebfonts.com/t/c64849bf51341c4e7083989b3907e29e.eot?#iefix")format("embedded-opentype"),
-  url("https://db.onlinewebfonts.com/t/c64849bf51341c4e7083989b3907e29e.woff2")format("woff2"),
-  url("https://db.onlinewebfonts.com/t/c64849bf51341c4e7083989b3907e29e.woff")format("woff"),
-  url("https://db.onlinewebfonts.com/t/c64849bf51341c4e7083989b3907e29e.ttf")format("truetype"),
-  url("https://db.onlinewebfonts.com/t/c64849bf51341c4e7083989b3907e29e.svg#Plan G")format("svg");
+  font-family: "Dex Gothic D";
+  src: url("https://db.onlinewebfonts.com/t/fbd22dfb3895a8c347ae6c6cc5fc7e9f.eot");
+  src: url("https://db.onlinewebfonts.com/t/fbd22dfb3895a8c347ae6c6cc5fc7e9f.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/fbd22dfb3895a8c347ae6c6cc5fc7e9f.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/fbd22dfb3895a8c347ae6c6cc5fc7e9f.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/fbd22dfb3895a8c347ae6c6cc5fc7e9f.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/fbd22dfb3895a8c347ae6c6cc5fc7e9f.svg#Dex Gothic D")format("svg");
 }
 :root {
   --banner-bg-start: #20c6fecc;
@@ -62,12 +62,12 @@ body {
   margin-bottom: 15px;
 }
 #banner-title {
-  font-family: 'Plan G', sans-serif;
+  font-family: 'Dex Gothic D', sans-serif;
   color:#FAF400;
   font-size: 16px;
 }
 #banner-subtitle {
-  font-family: 'Plan G', sans-serif;
+  font-family: 'Dex Gothic D', sans-serif;
   color: #e7e300;
   font-size: 12px;
 }
