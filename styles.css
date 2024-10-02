@@ -72,9 +72,17 @@ body {
   font-size: 15px;
 }
 #banner-subtitle2 {
-  font-family: 'Azonix', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #ece938;
-  font-size: 12px;
+  font-size: 10px;
+}
+a:link, a:visited {
+  color: #e4e14a;
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  background-color: #d2cf3b;
 }
 
 /* Styles for table */
