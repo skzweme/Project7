@@ -266,7 +266,7 @@ function populateRankingEntry(trainee, currRank) {
     </div>
     <div class="ranking__row-text">
       <div class="name"><strong>${trainee.name_romanized}</strong></div>
-      // <div class="company">${modifiedCompany}</div>
+      <div class="company">${modifiedCompany}</div>
     </div>
   </div>`;
   return rankingEntry;
