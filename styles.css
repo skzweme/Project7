@@ -71,6 +71,11 @@ body {
   color: #e7e300;
   font-size: 15px;
 }
+#banner-subtitle2 {
+  font-family: 'Azonix', sans-serif;
+  color: #ece938;
+  font-size: 12px;
+}
 
 /* Styles for table */
 #table {
