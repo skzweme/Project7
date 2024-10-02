@@ -62,6 +62,8 @@ trainee: {
   id: ... // position in csv used for simple recognition
   name_romanized: ...
   name_hangul: ...
+  name_japanese: ...
+  company: ...
   grade: a/b/c/d/f
   birthyear: ...
   image: ...
@@ -77,7 +79,11 @@ function convertCSVArrayToTraineeData(csvArrays) {
     if (traineeArray[2] === "-") {
       // trainee only has hangul
       trainee.name_hangul = traineeArray[1];
-    } 
+    } else {
+      trainee.name_japanese = traineeArray[1];
+      trainee.name_hangul = traineeArray[2];
+    }
+    trainee.company = traineeArray[3];
     trainee.grade = traineeArray[4];
     trainee.birthyear = traineeArray[5];
     trainee.eliminated = traineeArray[6] === 'e'; // sets trainee to be eliminated if 'e' appears in 6th col
@@ -187,7 +193,8 @@ function populateTableEntry(trainee) {
     <div class="table__entry-text">
       <span class="name"><strong>${trainee.name_romanized}</strong></span>
       <span class="hangul">(${trainee.name_hangul})</span>
-      <span class="year">${trainee.birthyear}</span>
+      <span class="companyandyear">${trainee.company.toUpperCase()} •
+      ${trainee.birthyear}</span>
     </div>
   </div>`;
   return tableEntry;
