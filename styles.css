@@ -10,6 +10,15 @@
   url("https://db.onlinewebfonts.com/t/fbd22dfb3895a8c347ae6c6cc5fc7e9f.ttf")format("truetype"),
   url("https://db.onlinewebfonts.com/t/fbd22dfb3895a8c347ae6c6cc5fc7e9f.svg#Dex Gothic D")format("svg");
 }
+@font-face {
+  font-family: "Cyberwar Regular";
+  src: url("https://db.onlinewebfonts.com/t/431c1745e9fe0886cf14d2b31df4fe53.eot");
+  src: url("https://db.onlinewebfonts.com/t/431c1745e9fe0886cf14d2b31df4fe53.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/431c1745e9fe0886cf14d2b31df4fe53.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/431c1745e9fe0886cf14d2b31df4fe53.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/431c1745e9fe0886cf14d2b31df4fe53.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/431c1745e9fe0886cf14d2b31df4fe53.svg#Cyberwar Regular")format("svg");
+}
 :root {
   --banner-bg-start: #20c6fecc;
   --banner-bg-end: #1ca2cf;
@@ -62,7 +71,7 @@ body {
   margin-bottom: 15px;
 }
 #banner-title {
-  font-family: 'Dex Gothic D', sans-serif;
+  font-family: 'Cyberwar Regular', sans-serif;
   color:#FAF400;
   font-size: 16px;
 }
