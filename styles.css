@@ -81,7 +81,7 @@ a:link, a:visited {
   text-decoration: none;
 }
 .header-card {
-  position: absolute; // absolute is absolute to a relative element
+  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
