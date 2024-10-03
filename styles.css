@@ -80,6 +80,14 @@ a:link, a:visited {
   color: #ffffff;
   text-decoration: none;
 }
+.header-card {
+  position: absolute; // absolute is absolute to a relative element
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0);
+  color: black;
+}
 
 /* Styles for table */
 #table {
