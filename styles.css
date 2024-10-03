@@ -80,13 +80,6 @@ a:link, a:visited {
   color: #ffffff;
   text-decoration: none;
 }
-.header-card {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  color: black;
-}
 
 /* Styles for table */
 #table {
