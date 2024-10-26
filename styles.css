@@ -378,7 +378,7 @@ a:link, a:visited {
   background-color: var(--c-rank);
 }
 .bg-d {
-  background-color: var(--d-rank);
+  background-color: var(--s-rank);
 }
 .bg-f {
   background-color: var(--f-rank);
