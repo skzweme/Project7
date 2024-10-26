@@ -25,10 +25,10 @@
   --checked-blue: #052ae2CC;
 
   /* ranking border colors */
-  --a-rank: #1DB8ED;
-  --b-rank: #f5d3e0;
-  --c-rank: #ffdeca;
-  --d-rank: #19b468;
+  --s-rank: #ffffc1;
+  --a-rank: #b8d4ff;
+  --b-rank: #ffc7ff;
+  --c-rank: #d9d9d9;
   --f-rank: #a6a6a4;
   --no-rank: #707070;
 }
