@@ -349,7 +349,7 @@ a:link, a:visited {
   bottom: -5px;
   margin: auto;
   border-radius: 50%;
-  background-color: var(--a-rank);
+  background-color: var(--s-rank);
   box-sizing: border-box;
   padding: 2px;
   /* badge text options */
